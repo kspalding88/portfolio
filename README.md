@@ -29,9 +29,9 @@ requirements.txt  Python dependencies
 
 ## Sections
 
-- **About** — I lead as a data scientist completing a Master of Data Science,
-  with 6+ years in network operations presented as supporting context, plus an
-  at-a-glance card and toolbox.
+- **About** — I lead as an aspiring data scientist completing a Master of Data
+  Science, with 7+ years in network operations presented as supporting context,
+  plus an at-a-glance card and toolbox.
 - **Projects** — the fully populated section. Three curated data science
   projects, each with problem, method, a concrete result, tools, and a repo
   link.
