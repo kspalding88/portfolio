@@ -27,8 +27,3 @@ communicate the essentials up front.
    for recall on the poisonous class, with safety-first threshold tuning.
 3. **Network Ticket Summarization Tool** — text parsing and standardization that
    turns unstructured trouble-ticket text into structured, analyzable records.
-
-## Tools
-
-Built with the [Pelican](https://getpelican.com/) static site generator
-(Python) and deployed with GitHub Pages.
