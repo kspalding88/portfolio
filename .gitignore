@@ -1,0 +1,13 @@
+# Pelican build output (deployed to gh-pages branch, not tracked on main)
+/output/
+__pycache__/
+*.pyc
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
