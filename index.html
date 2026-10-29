@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of machine learning, analytics, and data visualization projects by Kyle Spalding." />
+  <title>Kyle Spalding — Data Science Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://kspalding88.github.io/portfolio/theme/css/style.css" />
+</head>
+<body>
+  <!-- ======================= NAV ======================= -->
+  <header class="nav" id="top">
+    <div class="nav__inner">
+      <a href="#top" class="nav__brand">KS<span class="dot">.</span></a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a class="nav__cta" href="https://github.com/kspalding88" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+      <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ======================= HERO ======================= -->
+  <section class="hero">
+    <div class="hero__inner">
+      <p class="hero__eyebrow">Data Science &middot; Machine Learning &middot; Analytics</p>
+      <h1 class="hero__title">Kyle Spalding</h1>
+      <p class="hero__lede">
+        Data scientist in training with a builder's instinct for messy,
+        high-volume data. I design machine learning and analytics projects
+        end-to-end &mdash; framing the question, cleaning the data, choosing the
+        model, and communicating a result someone can act on. Six-plus years in
+        network operations is where I learned to find the signal fast.
+      </p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="#projects">View projects</a>
+        <a class="btn btn--ghost" href="#contact">Get in touch</a>
+      </div>
+      <ul class="hero__tags" aria-label="Core skills">
+        <li>Python</li><li>R</li><li>SQL</li><li>scikit-learn</li>
+        <li>Pandas</li><li>Data Visualization</li><li>EDA</li>
+      </ul>
+    </div>
+    <a class="hero__scroll" href="#about" aria-label="Scroll to About">&darr;</a>
+  </section>
+
+  <main>
+    <!-- ======================= ABOUT ======================= -->
+    <section class="section" id="about">
+      <div class="section__head">
+        <span class="section__num">01</span>
+        <h2>About</h2>
+      </div>
+      <div class="about">
+        <div class="about__text">
+          <p>
+            I'm a data scientist in the making, currently completing a
+            <strong>Master of Data Science</strong>. My work focuses on the full
+            workflow: framing a question, wrangling messy data, choosing the
+            right model, and communicating a result a non-technical stakeholder
+            can act on. I care more about honest, well-scoped analysis than
+            flashy accuracy numbers &mdash; especially when the cost of a wrong
+            answer is real.
+          </p>
+          <p>
+            My foundation is six-plus years in <strong>network
+            operations</strong>, where I handle alarm storms, carrier outages,
+            and root-cause analysis across platforms serving more than 100,000
+            subscribers. At its core that work is a data problem &mdash; separate
+            the one failing circuit from ten thousand healthy ones, fast &mdash;
+            and it gave me real experience with high-volume, noisy,
+            time-sensitive data that most new data scientists don't have.
+          </p>
+          <p>
+            I'm looking to grow into a <strong>data science</strong> or
+            <strong>analytics</strong> role where I can pair that operational
+            instinct with statistical rigor.
+          </p>
+        </div>
+        <aside class="about__card">
+          <h3>At a glance</h3>
+          <dl>
+            <div><dt>Focus</dt><dd>Machine learning, analytics, data viz</dd></div>
+            <div><dt>Studying</dt><dd>M.S. Data Science (in progress)</dd></div>
+            <div><dt>Background</dt><dd>6+ yrs network operations</dd></div>
+            <div><dt>Location</dt><dd>Louisville, KY</dd></div>
+          </dl>
+          <div class="about__skills">
+            <h4>Toolbox</h4>
+            <div class="chips">
+              <span>Python</span><span>R</span><span>SQL</span>
+              <span>scikit-learn</span><span>Pandas / NumPy</span>
+              <span>ggplot2</span><span>Matplotlib / Seaborn</span>
+              <span>Jupyter</span><span>Git</span>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ======================= PROJECTS ======================= -->
+    <section class="section section--alt" id="projects">
+      <div class="section__head">
+        <span class="section__num">02</span>
+        <h2>Projects</h2>
+      </div>
+      <p class="section__intro">
+        A curated set rather than a padded list. Each project includes a full
+        README in the repository covering the problem, data, methods, results,
+        and how to run it.
+      </p>
+
+      <div class="projects">
+
+        <!-- Beer -->
+        <article class="card">
+          <div class="card__top">
+            <span class="card__kicker">Supervised ML &middot; Regression</span>
+            <span class="card__status card__status--done">Complete</span>
+          </div>
+          <h3 class="card__title">Beer Strength (ABV) Prediction</h3>
+          <p class="card__body">
+            Predicts a beer's alcohol by volume from sensory review scores
+            (malty, hoppy, bitter, body) and characteristics (style, IBU range)
+            across ~3,200 beers. Compares Lasso regression against a Random
+            Forest inside scikit-learn pipelines, with leakage prevention and a
+            square-root target transform to address skew.
+          </p>
+          <p class="card__result">
+            <strong>Result:</strong> Random Forest was the stronger model with a
+            mean absolute error of <strong>0.84 percentage points of ABV</strong>
+            versus <strong>1.40 points</strong> for Lasso &mdash; on the original
+            ABV scale, not a percentage of error.
+          </p>
+          <ul class="card__tags">
+            <li>Python</li><li>scikit-learn</li><li>Pandas</li><li>Jupyter</li>
+          </ul>
+          <div class="card__links">
+            <a href="https://github.com/kspalding88/beer-strength-prediction" target="_blank" rel="noopener">Repository &rarr;</a>
+          </div>
+        </article>
+
+        <!-- Mushroom -->
+        <article class="card">
+          <div class="card__top">
+            <span class="card__kicker">Supervised ML &middot; Classification</span>
+            <span class="card__status card__status--done">Complete</span>
+          </div>
+          <h3 class="card__title">Mushroom Edibility Classification</h3>
+          <p class="card__body">
+            Predicts whether a mushroom is edible or poisonous from observable
+            physical traits, scoped to features a beginner forager could
+            actually see in the field. Because calling a poisonous mushroom
+            "edible" is a life-safety error, the project optimizes
+            <em>recall on the poisonous class</em> and tunes the decision
+            threshold toward caution instead of chasing raw accuracy.
+          </p>
+          <p class="card__result">
+            <strong>Result:</strong> A Random Forest reliably separates the two
+            classes; threshold tuning trades a few false alarms for near-zero
+            missed-poisonous cases, and a "not certain" output handles
+            low-confidence predictions.
+          </p>
+          <ul class="card__tags">
+            <li>Python</li><li>scikit-learn</li><li>Seaborn</li><li>joblib</li>
+          </ul>
+          <div class="card__links">
+            <a href="#" aria-disabled="true" class="is-pending">Repository (publishing)</a>
+          </div>
+        </article>
+
+        <!-- Ticket tool -->
+        <article class="card">
+          <div class="card__top">
+            <span class="card__kicker">Text Processing &middot; Automation</span>
+            <span class="card__status card__status--done">Complete</span>
+          </div>
+          <h3 class="card__title">Network Ticket Summarization Tool</h3>
+          <p class="card__body">
+            A Python tool that parses raw, unstructured trouble-ticket text and
+            transforms it into consistent, structured summary records. It turns a
+            messy free-text stream into clean, analyzable data &mdash; the
+            extraction-and-standardization step that precedes any real analysis.
+          </p>
+          <p class="card__result">
+            <strong>Skills shown:</strong> text parsing and feature extraction,
+            data standardization, and workflow automation that converts
+            unstructured documents into structured records.
+          </p>
+          <ul class="card__tags">
+            <li>Python</li><li>Pandas</li><li>Text processing</li>
+          </ul>
+          <div class="card__links">
+            <a href="#" aria-disabled="true" class="is-pending">Repository (publishing)</a>
+          </div>
+        </article>
+
+      </div>
+
+      <p class="projects__note">
+        Portfolio hygiene is ongoing: I've consolidated scattered coursework,
+        renamed files to describe the subject or method rather than a course,
+        archived superseded drafts, and written a README per showcased project
+        so each one stands on its own.
+      </p>
+    </section>
+
+    <!-- ======================= CONTACT ======================= -->
+    <section class="section" id="contact">
+      <div class="section__head">
+        <span class="section__num">03</span>
+        <h2>Contact</h2>
+      </div>
+      <div class="contact">
+        <p class="contact__lede">
+          Open to data science and analytics conversations &mdash; internships,
+          roles, or project collaboration. The fastest way to reach me is email.
+        </p>
+        <div class="contact__links">
+          <a class="contact__item" href="mailto:k_spalding88@outlook.com">
+            <span class="contact__label">Email</span>
+            <span class="contact__value">k_spalding88@outlook.com</span>
+          </a>
+          <a class="contact__item" href="https://github.com/kspalding88" target="_blank" rel="noopener">
+            <span class="contact__label">GitHub</span>
+            <span class="contact__value">github.com/kspalding88</span>
+          </a>
+          <a class="contact__item" href="https://www.linkedin.com/in/kyle-matthew-spalding/" target="_blank" rel="noopener">
+            <span class="contact__label">LinkedIn</span>
+            <span class="contact__value">linkedin.com/in/kyle-matthew-spalding</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Kyle Spalding &middot; Built with Pelican, hosted on GitHub Pages.</p>
+    <a href="#top">Back to top &uarr;</a>
+  </footer>
+
+  <script src="https://kspalding88.github.io/portfolio/theme/js/main.js"></script>
+</body>
+</html>
