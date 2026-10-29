@@ -27,9 +27,6 @@ up front.
   link.
 - **Contact** — email, GitHub, and LinkedIn.
 
-A hero/cover section sits above these to deliver the quick "couple of minutes of
-attention" hook.
-
 ## Projects shown
 
 1. **Beer Strength (ABV) Prediction** — supervised regression. Lasso vs. Random
@@ -39,10 +36,6 @@ attention" hook.
    for recall on the poisonous class, with safety-first threshold tuning.
 3. **Network Ticket Summarization Tool** — text parsing and standardization that
    turns unstructured trouble-ticket text into structured, analyzable records.
-
-The scope is deliberately data-science-first: regression, classification, and
-text-to-structured-data work. My network operations background appears as
-supporting context rather than the headline.
 
 ## Design intent
 
