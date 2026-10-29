@@ -8,8 +8,6 @@ of JavaScript, deployed with **GitHub Pages**. It is built for a reviewer who
 has only a couple of minutes — the hero and projects communicate the essentials
 up front.
 
-Created for DSC680 Portfolio Milestone 2.
-
 ## What's here
 
 | File | Purpose |
