@@ -43,10 +43,12 @@ attention" hook the assignment describes.
   of error.
 - **No Bellevue / course numbers.** The site refers to "a Master of Data Science"
   and describes projects by subject/method only.
-- **Range of skills shown.** Beyond the two original ML projects, the Projects
-  section now includes data visualization (Vehicle Theft story in R), analytics
-  (TSA complaints), automation (ticket summarization), and a data pipeline — so
-  the portfolio shows visualization, time-series/seasonality, and data wrangling.
+- **Focused, data-science-first scope.** The page is deliberately curated to
+  three data science projects — Beer Strength (ABV) Prediction, Mushroom
+  Edibility Classification, and the Network Ticket Summarization Tool — covering
+  regression, classification, and text-to-structured-data work. My network
+  operations background is kept as supporting context in the About section
+  rather than the headline.
 - **Cleanup described.** A note under Projects explains what was consolidated,
   renamed, and archived.
 - **README included for review.** This file is the submission write-up.
