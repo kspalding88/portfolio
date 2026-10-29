@@ -55,19 +55,6 @@ supporting context rather than the headline.
 - **Honest results.** Every project card states a concrete outcome and the skill
   it demonstrates, not just a title.
 
-## Milestone 1 feedback addressed
-
-- **Beer metric units fixed.** The card states *0.84 percentage points of ABV*
-  vs *1.40 points* and notes explicitly that this is ABV error, **not** a
-  percentage of error.
-- **No Bellevue / course numbers.** The site refers to "a Master of Data
-  Science" and describes projects by subject and method only.
-- **Range and focus.** Curated to three data science projects covering distinct
-  methods, rather than a padded list.
-- **Cleanup described.** A note under Projects explains what was consolidated,
-  renamed, and archived.
-- **README included for review.** This file serves as the submission write-up.
-
 ## Deploy / update
 
 This site deploys from the `main` branch root via **Settings → Pages → Deploy
