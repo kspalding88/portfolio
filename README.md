@@ -1,11 +1,14 @@
-# Portfolio Milestone 2 — Public-Facing Portfolio
+# Kyle Spalding — Data Science Portfolio
 
-**Kyle Spalding**
+**Live site:** https://kspalding88.github.io/portfolio/
 
-This folder contains the presentation layer of my data science portfolio: a
+This repository holds the presentation layer of my data science portfolio: a
 single-page, vertical-scroll website built with plain HTML, CSS, and a few lines
-of JavaScript. It is designed to deploy as a **GitHub Pages** site and to grab a
-reviewer's attention in the first few seconds.
+of JavaScript, deployed with **GitHub Pages**. It is built for a reviewer who
+has only a couple of minutes — the hero and projects communicate the essentials
+up front.
+
+Created for DSC680 Portfolio Milestone 2.
 
 ## What's here
 
@@ -16,75 +19,67 @@ reviewer's attention in the first few seconds.
 | `assets/main.js` | Mobile nav toggle and footer year |
 | `.nojekyll` | Tells GitHub Pages to serve the `assets/` folder as-is |
 
-## Required sections (assignment)
+## Sections
 
-- **About** — background, the NOC-to-data-science story, and an at-a-glance card.
-- **Projects** — the section I chose to **fully populate** for this milestone.
-  Six project cards drawn from real work, each with problem, method, result,
-  tools, and a repo link.
-- **Contact** — email, GitHub, and a LinkedIn placeholder.
+- **About** — I lead as a data scientist completing a Master of Data Science,
+  with 6+ years in network operations presented as supporting context, plus an
+  at-a-glance card and toolbox.
+- **Projects** — the fully populated section. Three curated data science
+  projects, each with problem, method, a concrete result, tools, and a repo
+  link.
+- **Contact** — email, GitHub, and LinkedIn.
 
-A hero/cover section sits above these to deliver the "couple of minutes of
-attention" hook the assignment describes.
+A hero/cover section sits above these to deliver the quick "couple of minutes of
+attention" hook.
+
+## Projects shown
+
+1. **Beer Strength (ABV) Prediction** — supervised regression. Lasso vs. Random
+   Forest in scikit-learn pipelines; Random Forest reached 0.84 percentage
+   points of ABV mean absolute error vs. 1.40 points for Lasso.
+2. **Mushroom Edibility Classification** — supervised classification optimized
+   for recall on the poisonous class, with safety-first threshold tuning.
+3. **Network Ticket Summarization Tool** — text parsing and standardization that
+   turns unstructured trouble-ticket text into structured, analyzable records.
+
+The scope is deliberately data-science-first: regression, classification, and
+text-to-structured-data work. My network operations background appears as
+supporting context rather than the headline.
 
 ## Design intent
 
-- **One page, vertical scroll** for low friction — a reviewer can skim the whole
-  portfolio without clicking.
-- **Projects first in emphasis.** The hook leads with the operations-to-analytics
-  angle so the portfolio appeals to Data Analyst / NOC-adjacent roles.
+- **One page, vertical scroll** so a reviewer can skim the whole portfolio
+  without clicking.
+- **Data science leads**, with network operations framed as a differentiator —
+  real experience with high-volume, noisy, time-sensitive data.
 - **Honest results.** Every project card states a concrete outcome and the skill
   it demonstrates, not just a title.
 
 ## Milestone 1 feedback addressed
 
-- **Beer metric units fixed.** The card now reads *0.84 percentage points of ABV*
-  vs *1.40 points* and explicitly notes this is ABV error, **not** a percentage
-  of error.
-- **No Bellevue / course numbers.** The site refers to "a Master of Data Science"
-  and describes projects by subject/method only.
-- **Focused, data-science-first scope.** The page is deliberately curated to
-  three data science projects — Beer Strength (ABV) Prediction, Mushroom
-  Edibility Classification, and the Network Ticket Summarization Tool — covering
-  regression, classification, and text-to-structured-data work. My network
-  operations background is kept as supporting context in the About section
-  rather than the headline.
+- **Beer metric units fixed.** The card states *0.84 percentage points of ABV*
+  vs *1.40 points* and notes explicitly that this is ABV error, **not** a
+  percentage of error.
+- **No Bellevue / course numbers.** The site refers to "a Master of Data
+  Science" and describes projects by subject and method only.
+- **Range and focus.** Curated to three data science projects covering distinct
+  methods, rather than a padded list.
 - **Cleanup described.** A note under Projects explains what was consolidated,
   renamed, and archived.
-- **README included for review.** This file is the submission write-up.
+- **README included for review.** This file serves as the submission write-up.
 
-## Deploy to GitHub Pages
+## Deploy / update
 
-Two common options:
-
-### Option A — dedicated portfolio repo (recommended)
-1. Create a repo, e.g. `kspalding88/portfolio` (or `kspalding88.github.io` for a
-   root-level site).
-2. Copy the contents of this folder (`index.html`, `assets/`, `.nojekyll`) into
-   the repo root.
-3. Push to GitHub.
-4. In the repo: **Settings → Pages → Build and deployment → Source: Deploy from a
-   branch**, pick `main` and `/ (root)`, save.
-5. The site publishes at `https://kspalding88.github.io/portfolio/`
-   (or `https://kspalding88.github.io/` for the user-site repo).
-
-### Option B — serve this subfolder from an existing repo
-1. Move `index.html`, `assets/`, and `.nojekyll` to the repo root (Pages serves
-   from root or `/docs`, not an arbitrary subfolder).
-2. Enable Pages as above.
+This site deploys from the `main` branch root via **Settings → Pages → Deploy
+from a branch → `main` / `/ (root)`**. After any change, push to `main` and
+GitHub Pages rebuilds automatically within a minute or two.
 
 ## Preview locally
 
-From this folder:
+From the repository root:
 
 ```bash
 python -m http.server 8000
 ```
 
 Then open <http://localhost:8000> in a browser.
-
-## To do before final submission
-
-- Replace the LinkedIn placeholder in the Contact section with your real URL.
-- Publish the remaining project repos and swap the "publishing" links for live
-  repository URLs.
