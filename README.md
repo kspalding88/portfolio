@@ -2,8 +2,7 @@
 
 **Live site:** https://kspalding88.github.io/portfolio/
 
-This repository is where my data science projects lie: a single-page,
-vertical-scroll site built with the Pelican
+This repository is where my data science projects lie. Built with the Pelican
 static site generator and deployed with **GitHub Pages**. 
 
 ## Sections
