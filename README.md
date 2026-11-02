@@ -2,17 +2,14 @@
 
 **Live site:** https://kspalding88.github.io/portfolio/
 
-This repository holds the source for my data science portfolio: a single-page,
-vertical-scroll site built with the **[Pelican](https://getpelican.com/)**
-static site generator (Python) and deployed with **GitHub Pages**. It is built
-for a reviewer who has only a couple of minutes — the hero and projects
-communicate the essentials up front.
+This repository is where my data science projects lie: a single-page,
+vertical-scroll site built with the Pelican
+static site generator and deployed with **GitHub Pages**. 
 
 ## Sections
 
-- **About** — I lead as an aspiring data scientist completing a Master of Data
-  Science, with 7+ years in network operations presented as supporting context,
-  plus an at-a-glance card and toolbox.
+- **About** — Aspiring data scientist completing a Master of Data
+  Science, with 7+ years in network operations.
 - **Projects** — the fully populated section. Three curated data science
   projects, each with problem, method, a concrete result, tools, and a repo
   link.
