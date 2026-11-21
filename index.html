@@ -201,6 +201,34 @@
           </div>
         </article>
 
+        <!-- TSA forecasting -->
+        <article class="card">
+          <div class="card__top">
+            <span class="card__kicker">Time Series &middot; Forecasting</span>
+            <span class="card__status card__status--done">Complete</span>
+          </div>
+          <h3 class="card__title">TSA Complaint Forecasting</h3>
+          <p class="card__body">
+            Forecasts monthly TSA traveler complaints from about a million
+            records, comparing seven methods including Holt-Winters, SARIMA, and
+            a Random Forest. Also tests which complaint categories move first
+            and how the mix of complaints changed after the 2020 travel
+            disruption.
+          </p>
+          <p class="card__result">
+            <strong>Result:</strong> A damped seasonal Holt-Winters model was
+            within <strong>8.0%</strong> one month ahead, ahead of a naive
+            forecast at 8.5%. Error rose from <strong>12.6%</strong> at the
+            busiest airports to <strong>60.2%</strong> at the smallest.
+          </p>
+          <ul class="card__tags">
+            <li>Python</li><li>statsmodels</li><li>scikit-learn</li><li>Time series</li>
+          </ul>
+          <div class="card__links">
+            <a href="https://github.com/kspalding88/tsa-complaint-forecasting" target="_blank" rel="noopener">Repository &rarr;</a>
+          </div>
+        </article>
+
       </div>
 
       <p class="projects__note">
