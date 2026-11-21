@@ -9,7 +9,7 @@ static site generator and deployed with **GitHub Pages**.
 
 - **About** — Aspiring data scientist completing a Master of Data
   Science, with 7+ years in network operations.
-- **Projects** — the fully populated section. Three curated data science
+- **Projects** — the fully populated section. Four curated data science
   projects, each with problem, method, a concrete result, tools, and a repo
   link.
 - **Contact** — email, GitHub, and LinkedIn.
@@ -24,3 +24,6 @@ static site generator and deployed with **GitHub Pages**.
 3. **Kia/Hyundai Vehicle Theft Analysis** — data visualization and storytelling
    in R; a six-chart data story on the post-2020 theft surge for a non-technical
    audience.
+4. **TSA Complaint Forecasting** — time-series forecasting of monthly traveler
+   complaints; Holt-Winters was within 8.0% one month ahead, and error rose
+   from 12.6% at the busiest airports to 60.2% at the smallest.
