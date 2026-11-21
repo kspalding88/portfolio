@@ -24,6 +24,6 @@ static site generator and deployed with **GitHub Pages**.
 3. **Kia/Hyundai Vehicle Theft Analysis** — data visualization and storytelling
    in R; a six-chart data story on the post-2020 theft surge for a non-technical
    audience.
-4. **TSA Complaint Forecasting** — time-series forecasting of monthly traveler
-   complaints; Holt-Winters was within 8.0% one month ahead, and error rose
-   from 12.6% at the busiest airports to 60.2% at the smallest.
+4. **TSA Complaint Forecasting** — time-series forecasting and airport spike
+   detection on monthly traveler complaints; Holt-Winters was within 6.2% one
+   month ahead, and comparing airports to the nation caught 73% of test spikes.

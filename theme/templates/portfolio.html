@@ -183,17 +183,18 @@
           </div>
           <h3 class="card__title">TSA Complaint Forecasting</h3>
           <p class="card__body">
-            Forecasts monthly TSA traveler complaints from about a million
-            records, comparing seven methods including Holt-Winters, SARIMA, and
-            a Random Forest. Also tests which complaint categories move first
-            and how the mix of complaints changed after the 2020 travel
-            disruption.
+            Forecasts monthly TSA traveler complaints from 1.37 million records
+            across 129 months, comparing seven methods including Holt-Winters,
+            SARIMA, and a Random Forest. Also detects unusual spikes at
+            individual airports and measures how the mix of complaints changed
+            after the 2020 travel disruption.
           </p>
           <p class="card__result">
             <strong>Result:</strong> A damped seasonal Holt-Winters model was
-            within <strong>8.0%</strong> one month ahead, ahead of a naive
-            forecast at 8.5%. Error rose from <strong>12.6%</strong> at the
-            busiest airports to <strong>60.2%</strong> at the smallest.
+            within <strong>6.2%</strong> one month ahead, against 8.2% for a
+            naive forecast. Comparing each airport to the nation caught
+            <strong>73%</strong> of test spikes, against 51% for its own
+            history alone.
           </p>
           <ul class="card__tags">
             <li>Python</li><li>statsmodels</li><li>scikit-learn</li><li>Time series</li>
